@@ -1,16 +1,29 @@
-# React + Vite
+-Project Name :>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> DigiTools – Premium Digital Tools Marketplace
 
-Currently, two official plugins are available:
+-Project Description ;>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+>DigiTools is a modern web application where users can explore and purchase premium digital tools such as AI tools, design assets, templates, and productivity software.
+The platform provides a clean user interface and allows users to add products to a cart and manage them easily.
 
-## React Compiler
+-Technologies Used :>
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+>React.js
+ _Tailwind CSS
+ _DaisyUI
+ _JavaScript (ES6)
+ _React Toastify
 
-## Expanding the ESLint configuration
+-Key Features :>
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Add to Cart System-
+Users can add digital products to the cart and the cart icon in the navbar automatically updates with the total number of selected items.
+
+2. Fully Responsive Design-
+The website is responsive and works smoothly on mobile, tablet, and desktop devices.
+
+3. Modern UI Design-
+The project includes a modern SaaS-style interface with beautiful cards, gradients, and clean layouts for a better user experience.
+
+(Thank You)
