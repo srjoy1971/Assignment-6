@@ -17,18 +17,18 @@ function App() {
 
   return (
     <>
-      <Navber />
+      <Navber carts={carts} />
       <Banner />
       <Premium />
-      
+
 
       <div className="tabs tabs-box justify-center gap-4 mt-8">
         <input
           type="radio"
           name="my_tabs_1"
           className={`btn rounded-full ${activeTab === "Products"
-              ? "bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] text-white"
-              : "text-black"
+            ? "bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] text-white"
+            : "text-black"
             }`}
           aria-label="Products"
           onClick={() => setActiveTab("Products")}
@@ -39,8 +39,8 @@ function App() {
           type="radio"
           name="my_tabs_1"
           className={`btn rounded-full ${activeTab === "Cart"
-              ? "bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] text-white"
-              : "text-black"
+            ? "bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] text-white"
+            : "text-black"
             }`}
           aria-label={`Cart (${carts.length})`}
           onClick={() => setActiveTab("Cart")}

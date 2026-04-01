@@ -5,9 +5,9 @@ const Cart = ({ carts, setCarts }) => {
   const totalPrice = carts.reduce((total, item) => total + item.price, 0);
 
   const handleCheckout = () => {
-  toast.success("Checkout successful!");
-  setCarts([]);
-}
+    toast.success("Checkout successful!");
+    setCarts([]);
+  }
 
   return (
     <div className="rounded-lg shadow-2xl p-12 max-w-6xl mx-auto mt-12">

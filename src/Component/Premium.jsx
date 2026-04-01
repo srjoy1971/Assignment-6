@@ -3,7 +3,7 @@ import React from 'react';
 const Premium = () => {
   return (
     <header>
-      <section className="bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] py-16 px-4">
+      <section className="bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] py-16 px-4 ">
         <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-center gap-12 md:gap-0 text-white">
 
           {/* Active Users */}
