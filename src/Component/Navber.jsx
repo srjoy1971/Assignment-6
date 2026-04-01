@@ -26,6 +26,9 @@ const NavBar = () => {
         </ul>
       </div>
       <div className="navbar-end gap-5">
+        <button className="text-gray-600 hover:text-gray-900 flex items-center gap-1">
+              <span>🛒</span> 
+            </button>
         <p>Login</p>
         <a className="btn bg-gradient-to-r from-[#8b2cf5] to-[#a434ff] rounded-full text-white">Get in Touch</a>
       </div>

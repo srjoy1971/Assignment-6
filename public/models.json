@@ -2,91 +2,85 @@
   {
     "id": 1,
     "name": "AI Writing Pro",
-    "description": "Generate high-quality content, blogs, and marketing copy in seconds with advanced AI.",
+    "description": "Generate high-quality content, blogs, and marketing with advanced AI.",
     "price": 29,
     "period": "monthly",
     "tag": "Best Seller",
-    "tagType": "best seller",
     "features": [
       "Unlimited AI generations",
       "50+ writing templates",
       "Grammar checker"
     ],
-    "icon": "ai"
+    "icon": "https://cdn-icons-png.flaticon.com/512/2921/2921222.png"
   },
   {
     "id": 2,
     "name": "Design Templates Pack",
-    "description": "2000+ premium templates for social media, presentations, and marketing materials.",
+    "description": "Professional templates for social media and presentations.",
     "price": 49,
     "period": "one-time",
     "tag": "Popular",
-    "tagType": "popular",
     "features": [
       "2000+ templates",
-      "Monthly updates",
+      "Editable design",
       "Commercial license"
     ],
-    "icon": "palette"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1055/1055687.png"
   },
   {
     "id": 3,
-    "name": "Premium Stock Assets",
-    "description": "Access millions of royalty-free photos, videos, and graphics for your projects.",
+    "name": "Stock Assets Library",
+    "description": "Millions of royalty-free photos and graphics.",
     "price": 19,
     "period": "monthly",
     "tag": "New",
-    "tagType": "new",
     "features": [
       "10M+ assets",
-      "Commercial use",
-      "No attribution"
+      "HD quality",
+      "Commercial use"
     ],
-    "icon": "camera"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1829/1829586.png"
   },
   {
     "id": 4,
     "name": "Automation Toolkit",
-    "description": "Automate repetitive tasks and streamline your workflow with powerful tools.",
-    "price": 79,
+    "description": "Automate repetitive tasks and improve productivity.",
+    "price": 39,
     "period": "monthly",
     "tag": "Popular",
-    "tagType": "popular",
     "features": [
-      "50+ automations",
-      "API access",
-      "Custom workflows"
+      "Workflow automation",
+      "API integration",
+      "Custom triggers"
     ],
-    "icon": "settings"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1827/1827933.png"
   },
   {
     "id": 5,
     "name": "Resume Builder Pro",
-    "description": "Create professional resumes and cover letters that land interviews.",
+    "description": "Create professional resumes that stand out.",
     "price": 15,
     "period": "one-time",
-    "tag": "New",
-    "tagType": "new",
+    "tag": "Best Seller",
     "features": [
-      "100+ templates",
+      "100+ resume templates",
       "ATS optimization",
       "Export to PDF"
     ],
-    "icon": "file-text"
+    "icon": "https://cdn-icons-png.flaticon.com/512/942/942748.png"
   },
   {
     "id": 6,
-    "name": "Social Media Content Kit",
-    "description": "Complete toolkit for creating engaging social media content across all platforms.",
-    "price": 39,
+    "name": "Social Media Toolkit",
+    "description": "Create engaging content for all social platforms.",
+    "price": 25,
     "period": "monthly",
-    "tag": "Best Seller",
-    "tagType": "best seller",
+    "tag": "New",
     "features": [
-      "5000+ assets",
-      "Scheduler included",
-      "Analytics dashboard"
+      "Content calendar",
+      "Analytics dashboard",
+      "Post scheduler"
     ],
-    "icon": "share"
+    "icon": "https://cdn-icons-png.flaticon.com/512/1384/1384014.png"
   }
 ]
