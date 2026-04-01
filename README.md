@@ -1,6 +1,6 @@
 -Project Name :>
 
-> DigiTools – Premium Digital Tools Marketplace
+> DigiTools – platfrom
 
 -Project Description ;>
 
