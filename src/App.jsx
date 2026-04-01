@@ -9,8 +9,6 @@ import Navber from "./Component/Navber"
 import Premium from "./Component/Premium"
 import Transform from "./Component/Transform"
 import Transparent from "./Component/Transparent"
-import { ToastContainer } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 function App() {
 
@@ -22,7 +20,7 @@ function App() {
       <Navber />
       <Banner />
       <Premium />
-      <ToastContainer />
+      
 
       <div className="tabs tabs-box justify-center gap-4 mt-8">
         <input

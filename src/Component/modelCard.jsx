@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const ModelCard = ({ model , carts, setCarts }) => {
 const tagColors = {
@@ -14,6 +13,12 @@ const tagColors = {
 
     const handleSubscribe = () => {
         setIsSubscribed(true);
+
+        const alreadyInCart = carts.some(item => item.id === model.id);
+        if (alreadyInCart) {
+            toast.info("Item is already in cart!");
+            return;
+        }
         setCarts([...carts, model]);
         toast.success("Item added to cart!");
     }
