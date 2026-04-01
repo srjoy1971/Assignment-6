@@ -2,8 +2,8 @@ import BannerImage from "../assets/banner.png";
 
 const Banner = () => {
     return (
-        <div className="relative min-h-[600px] flex items-center overflow-hidden px-5 lg:px-0 mb-8 sm:mb-8">
-            <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
+        <div className="pt-16 relative min-h-[600px] flex items-center overflow-hidden px-5 lg:px-0 mb-8 sm:mb-8">
+            <div className="pt-16 max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center relative z-10">
 
                 <div className="space-y-5 text-center lg:text-left">
 

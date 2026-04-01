@@ -5,8 +5,6 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto px-6">
 
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12">
-
-          {/* Logo & Description */}
           <div className="md:col-span-4">
             <h2 className="text-3xl font-bold tracking-tighter text-white mb-6">
               DigiTools
@@ -18,7 +16,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Product */}
           <div className="md:col-span-2">
             <h3 className="text-blue-50 font-semibold mb-6 text-lg">Product</h3>
             <ul className="space-y-4 text-zinc-400">
@@ -28,7 +25,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition">Integrations</a></li>
             </ul>
           </div>
-          {/* Company */}
+
           <div className="md:col-span-2">
             <h3 className="text-blue-50 font-semibold mb-6 text-lg">Company</h3>
             <ul className="space-y-4 text-zinc-400">
@@ -38,7 +35,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition">Press</a></li>
             </ul>
           </div>
-          {/* Resources */}
+
           <div className="md:col-span-2">
             <h3 className="text-blue-50 font-semibold mb-6 text-lg">Resources</h3>
 
@@ -49,7 +46,7 @@ const Footer = () => {
               <li><a href="#" className="hover:text-white transition">Contact</a></li>
             </ul>
           </div>
-          {/* Social Links */}
+
           <div className="md:col-span-2">
             <h3 className="text-white font-semibold mb-6 text-lg">Social</h3>
 
@@ -60,7 +57,6 @@ const Footer = () => {
               >
                 IG
               </a>
-
               <a
                 href="#"
                 className="bg-white text-black px-3 py-2 rounded-full hover:bg-blue-600 hover:text-white transition"
@@ -79,7 +75,6 @@ const Footer = () => {
 
         </div>
 
-        {/* Bottom Bar */}
         <div className="mt-16 pt-8 border-t border-zinc-800 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-zinc-500">
           <div>
             © {new Date().getFullYear()} Digitools. All rights reserved.
